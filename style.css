@@ -1,0 +1,24 @@
+/*1 ----------*/
+
+#ciao {
+    display:none;
+}
+#ciao {
+    visibility:hidden;
+}
+#ciao {
+    opacity: 0;
+}
+
+/*2 ----------*/
+
+#arrivederci {
+    position: absolute;
+    top: 0;
+    //move to right
+    right: 0;
+}
+
+/*3 ----------*/
+
+//transition css3 vs animation css3

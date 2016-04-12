@@ -44,23 +44,13 @@ var bar = function(arg) {
 
 bar(foo)();
 ----
-function add(value1) {
-  return function doAdd(value2) {
-    return value1 + value2;
-  };
-}
+var x = 5;
 
-var increment = add(1);
-var foo = increment(2);
-// foo equals 3
------
-function Person(name) {
-  var _name = name;
-
-  this.getName = function() {
-    return _name;
-  };
-}
+(function () {
+    console.log(x);
+    var x = 10;
+    console.log(x); 
+})();
 -----
 (function() {
    var a = b = 5;
